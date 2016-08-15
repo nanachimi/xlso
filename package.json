@@ -1,7 +1,6 @@
 {
   "name": "xlso",
   "version": "0.0.1",
-  "private": true,
   "description": "Node.js package for parsing an excel workbook to an javascript object",
   "author": {
     "name":"Achille Nana Chimi",
