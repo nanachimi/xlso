@@ -13,6 +13,7 @@ npm install xlso --save
 ```
 
 ## How to use the package?
+
 ```Javascript
 var xlso = require('xslo');
 var xlsx = require('xlsx');
