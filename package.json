@@ -1,12 +1,22 @@
 {
   "name": "xlso",
-  "version": "0.0.1",
+  "version": "1.0.0",
   "description": "Node.js package for parsing an excel workbook to an javascript object",
   "author": {
     "name":"Achille Nana Chimi",
     "url": "https://nanachimi.com",
-    "email": "me(at)nanachimi.com"
+    "email": "me@nanachimi.com"
   },
+  "homepage": "https://github.com/nanachimi/xlso",
+  "bugs": {
+    "url": "https://github.com/nanachimi/xlso/issues",
+    "email": "xlso@nanachimi.com"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nanachimi/xlso.git"
+  },
+  "license": "MIT",
   "main": "index.js",
   "engines": {
     "node": "4.2.6",
