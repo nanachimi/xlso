@@ -1,5 +1,5 @@
 # xlso
-Node.js package for parsing excel workbooks into an Javascript object. Excel workbooks based on the package xlsx from https://github.com/SheetJS/js-xlsx
+Node.js package for parsing excel workbooks into an Javascript object. Excel workbooks based on the node.js package [xlsx](https://github.com/SheetJS/js-xlsx).
 
 ## How to run unit-tests ?
 
@@ -17,7 +17,7 @@ npm install xlso --save
 var xlso = require('xslo');
 var xlsx = require('xlsx');
 
-//parse excel file. More details to xlsx //Here[https://github.com/SheetJS/js-xlsx]
+//parse excel file. More details to xlsx [Here](https://github.com/SheetJS/js-xlsx)
 var workbook = xlsx.readFile("testdata.xlsx");
 // parse the workbook to a js object
 var jsobject = xlso.parseWorkbook(workbook, 0, 0);
