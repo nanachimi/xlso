@@ -13,13 +13,17 @@ npm install xlso --save
 ```
 
 ## How to use the package?
-
+```Javascript
 var xlso = require('xslo');
 var xlsx = require('xlsx');
 
+//parse excel file. More details to xlsx //Here[https://github.com/SheetJS/js-xlsx]
 var workbook = xlsx.readFile("testdata.xlsx");
 // parse the workbook to a js object
-var jsobject = parser.parseWorkbook(workbook, 0, 0);
+var jsobject = xlso.parseWorkbook(workbook, 0, 0);
+// display your js object
+console.log(jsobject);
+```
 
 ## API Specifications
 `xlso` expose one API that expect three parameters:
