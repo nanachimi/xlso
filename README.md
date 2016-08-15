@@ -13,11 +13,13 @@ Let suppose the following table is saved as `testdata.xlsx`.
 
 | Id    | Name  | City  |
 | ----- | ----- | ----- |
-|  1    | micky | Loum  |
+|  1    | Micky | Loum  |
 |  2    | Lapiro| Mbanga|
 
+The following snippet show how to parse `testdata.xlsx` in order to get all data.
+
 ```Javascript
-var xlso = require('xslo');
+var xlso = require('xlso');
 var xlsx = require('xlsx');
 // the xlsx's workbook to parse by the xlso package.
 var workbook = xlsx.readFile("testdata.xlsx");
@@ -25,7 +27,7 @@ var workbook = xlsx.readFile("testdata.xlsx");
 var rows = xlso.parseWorkbook(workbook, 0, 0);
 // display your js array
 rows.forEach(function(item, index){
-  console("Id: " + item.Id + "Name: " + item.Name + "City: " + item.City);
+  console.log("Id: " + item.Id + ", Name: " + item.Name + ", City: " + item.City);
 });
 ```
 
