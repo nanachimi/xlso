@@ -1,6 +1,8 @@
 'use strict';
 
 var expect = require('chai').expect;
+var describe = require('mocha').describe;
+var it = require('mocha').it;
 var parser = require('../lib/parser');
 var xlsx = require('xlsx');
 
@@ -58,5 +60,5 @@ describe("xlso", function(){
       expect(jsobject[3].Hobby).to.equals('Jeux de Dame');
       expect(jsobject[4].Hobby).to.equals('Jeux de Carte');
     });
-  })
+  });
 });
