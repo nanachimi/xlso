@@ -1,4 +1,4 @@
-[![bitHound Overall Score](https://www.bithound.io/github/nanachimi/xlso/badges/score.svg)](https://www.bithound.io/github/nanachimi/xlso) [![bitHound Code](https://www.bithound.io/github/nanachimi/xlso/badges/code.svg)](https://www.bithound.io/github/nanachimi/xlso) [![bitHound Dependencies](https://www.bithound.io/github/nanachimi/xlso/badges/dependencies.svg)](https://www.bithound.io/github/nanachimi/xlso/master/dependencies/npm)
+[![Known Vulnerabilities](https://snyk.io/test/npm/xlso/badge.svg)](https://snyk.io/test/npm/xlso) [![bitHound Overall Score](https://www.bithound.io/github/nanachimi/xlso/badges/score.svg)](https://www.bithound.io/github/nanachimi/xlso) [![bitHound Code](https://www.bithound.io/github/nanachimi/xlso/badges/code.svg)](https://www.bithound.io/github/nanachimi/xlso) [![bitHound Dependencies](https://www.bithound.io/github/nanachimi/xlso/badges/dependencies.svg)](https://www.bithound.io/github/nanachimi/xlso/master/dependencies/npm)
 
 # xlso
 Node.js package for parsing excel workbooks into an Javascript array of rows. Excel workbooks based on the node.js package [xlsx](https://github.com/SheetJS/js-xlsx).
