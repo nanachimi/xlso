@@ -5,8 +5,8 @@ Node.js package for parsing excel workbooks into an Javascript array of rows. Ex
 
 ## how to install the xlso?
 
-```Schell
-npm install xlso --save
+```Shell
+$ npm install xlso --save
 ```
 
 ## How to use the package?
@@ -43,6 +43,6 @@ PS: the header row must be the first row.
 
 ## How to run unit-tests?
 
-```Schell
-npm test
+```Shell
+$ npm test
 ```
