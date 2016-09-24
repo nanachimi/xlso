@@ -19,8 +19,8 @@
   "license": "MIT",
   "main": "index.js",
   "engines": {
-    "node": "4.2.6",
-    "npm": "3.3.12"
+    "node": "4.5.0",
+    "npm": "3.12.8"
   },
   "keywords":[
     "parser",
@@ -37,7 +37,7 @@
   },
   "devDependencies": {
     "chai": "^3.5.0",
-    "istanbul": "^0.4.4",
+    "istanbul": "^0.4.5",
     "mocha": "^3.0.2",
     "xlsx": "^0.8.0"
   }
