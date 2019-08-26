@@ -18,10 +18,6 @@
   },
   "license": "MIT",
   "main": "index.js",
-  "engines": {
-    "node": "4.5.0",
-    "npm": "3.12.8"
-  },
   "keywords":[
     "parser",
     "xls",
